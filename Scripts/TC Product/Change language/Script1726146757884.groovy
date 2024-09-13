@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://juice-shop.herokuapp.com/#/')
+
+WebUI.click(findTestObject('Object Repository/Language/button_Dismiss'))
+
+WebUI.click(findTestObject('Object Repository/Language/a_cookies btn'))
+
+WebUI.click(findTestObject('Object Repository/Language/button_language'))
+
+WebUI.click(findTestObject('Object Repository/Language/div_Bahasa Indonesia'))
+
+WebUI.click(findTestObject('Object Repository/Language/label Language'))
+
