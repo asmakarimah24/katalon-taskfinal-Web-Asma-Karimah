@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create Customer Feedback</name>
+   <name>Add to cart</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>33505255-a45c-40a6-9be1-45911a109e8e</testCaseGuid>
+   <testCaseGuid>f9a33127-e0d2-450a-a3a8-1dbdbd59567e</testCaseGuid>
 </TestCaseEntity>

@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://juice-shop.herokuapp.com/#/')
+
+WebUI.click(findTestObject('Language/button_Dismiss'))
+
+WebUI.click(findTestObject('Language/a_cookies btn'))
+
+WebUI.click(findTestObject('Object Repository/product/div_Apple Juice (1000ml)'))
+
+WebUI.click(findTestObject('Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08'))
+
+WebUI.click(findTestObject('Object Repository/product/button_close  Close'))
+
+WebUI.closeBrowser()
+

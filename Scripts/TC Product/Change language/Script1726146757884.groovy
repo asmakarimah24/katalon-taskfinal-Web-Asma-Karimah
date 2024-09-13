@@ -29,5 +29,5 @@ WebUI.click(findTestObject('Object Repository/Language/button_language'))
 
 WebUI.click(findTestObject('Object Repository/Language/div_Bahasa Indonesia'))
 
-WebUI.click(findTestObject('Object Repository/Language/label Language'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Language/label Language'))
 

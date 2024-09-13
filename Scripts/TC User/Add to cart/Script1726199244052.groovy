@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://juice-shop.herokuapp.com/#/')
+
+WebUI.click(findTestObject('Object Repository/Cart/span_Dismiss'))
+
+WebUI.click(findTestObject('Object Repository/Cart/a_Me want it'))
+
+WebUI.click(findTestObject('Object Repository/Cart/button_account_circle  Account'))
+
+WebUI.click(findTestObject('Object Repository/Cart/button_exit_to_app  Login'))
+
+WebUI.click(findTestObject('Object Repository/Cart/div_Email'))
+
+WebUI.setText(findTestObject('Object Repository/Cart/input_Login_email'), 'lala@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Cart/input_Email_password'), 'iGDxf8hSRT4=')
+
+WebUI.click(findTestObject('Object Repository/Cart/mat-icon_exit_to_app'))
+
+WebUI.click(findTestObject('Object Repository/Cart/button_Add to Basket'))
+
+WebUI.click(findTestObject('Object Repository/Cart/span_1'))
+
+WebUI.closeBrowser()
+
