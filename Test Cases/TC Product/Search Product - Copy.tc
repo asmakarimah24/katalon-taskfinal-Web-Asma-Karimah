@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Product - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa55754c-dce8-4db0-990a-dbed9efd1364</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2405c5ef-a952-47d1-bb29-a91b1a3d39b7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2405c5ef-a952-47d1-bb29-a91b1a3d39b7</id>
+      <masked>false</masked>
+      <name>buah</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_close</name>
+   <tag></tag>
+   <elementGuidId>1ff069b8-5765-48ab-a2a0-3cc516cef15c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/app-product-details/mat-dialog-content/div/div[2]/mat-dialog-actions/button/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.close-dialog.buttons.mat-stroked-button.mat-button-base.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper > i.material-icons</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Close Dialog&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4d17c19a-6bcf-49ad-a82d-0ec2a19065f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>material-icons</value>
+      <webElementGuid>dc4c6c76-a68c-49e9-921f-30b487cfea83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> close </value>
+      <webElementGuid>3ef365b6-48ea-455f-a532-9cbe06cea4b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/app-product-details[@class=&quot;ng-star-inserted&quot;]/mat-dialog-content[@class=&quot;mat-dialog-content&quot;]/div[@class=&quot;container mat-typography&quot;]/div[2]/mat-dialog-actions[@class=&quot;mat-dialog-actions dialogAction mat-dialog-actions-align-end&quot;]/button[@class=&quot;mat-focus-indicator close-dialog buttons mat-stroked-button mat-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/i[@class=&quot;material-icons&quot;]</value>
+      <webElementGuid>1b6b1131-e26b-40c9-bd7b-7c564d1b116d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/app-product-details/mat-dialog-content/div/div[2]/mat-dialog-actions/button/span/i</value>
+      <webElementGuid>fcf9893d-bebc-473f-8f09-3edd9d839819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Max. 160 characters'])[1]/following::i[1]</value>
+      <webElementGuid>253f0750-1374-41a5-a4eb-6d09128e5d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/following::i[1]</value>
+      <webElementGuid>6404bbe0-e15e-4ae5-b0e4-27c779f62060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::i[1]</value>
+      <webElementGuid>e9ab6f27-d4e9-482e-af42-92adae5f2e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='send'])[1]/preceding::i[1]</value>
+      <webElementGuid>b857435e-f0cf-47f9-8d77-80c755a78c30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-dialog-actions/button/span/i</value>
+      <webElementGuid>23f9f24d-a7a2-4165-8a4b-2e988dc3c2f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = ' close ' or . = ' close ')]</value>
+      <webElementGuid>3abbb49e-ff89-4d9b-8807-03cc7c5fef6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

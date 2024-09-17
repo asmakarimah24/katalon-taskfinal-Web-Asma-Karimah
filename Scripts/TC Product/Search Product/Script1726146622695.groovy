@@ -17,23 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://juice-shop.herokuapp.com/#/')
-
-WebUI.click(findTestObject('Object Repository/Search/span_Dismiss'))
-
-WebUI.click(findTestObject('Object Repository/Search/a_Me want it'))
-
 WebUI.click(findTestObject('Object Repository/Search/mat-icon_search'))
 
-WebUI.setText(findTestObject('Object Repository/Search/input_OWASP Juice Shop_mat-input-0'), 'Banana')
+WebUI.setText(findTestObject('Object Repository/Search/input_OWASP Juice Shop_mat-input-0'), buah)
 
 WebUI.sendKeys(findTestObject('Object Repository/Search/input_OWASP Juice Shop_mat-input-0'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Search/div_Banana Juice (1000ml)'))
-
-WebUI.click(findTestObject('Object Repository/Search/i_close'))
-
-WebUI.closeBrowser()
 

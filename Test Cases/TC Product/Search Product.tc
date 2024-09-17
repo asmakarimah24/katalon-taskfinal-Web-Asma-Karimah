@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a84c3800-687d-41a9-8707-be32c4e2fe57</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9fe07db5-606d-46d8-9f9b-1280fc7fb5e6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9fe07db5-606d-46d8-9f9b-1280fc7fb5e6</id>
+      <masked>false</masked>
+      <name>buah</name>
+   </variable>
 </TestCaseEntity>

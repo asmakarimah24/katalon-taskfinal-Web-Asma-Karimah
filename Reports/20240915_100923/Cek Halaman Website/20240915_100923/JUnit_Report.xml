@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cek Halaman Website" time="152.621" tests="5" failures="0" errors="0">
+   <testsuite name="Cek Halaman Website" tests="5" failures="0" errors="0" time="152.621" skipped="0" timestamp="15-09-2024T10:09:27" hostname="asma.nasyith - 503-01925.modena.com" id="Test Suites/Cek Halaman Website">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_100923\\Cek Halaman Website\\20240915_100923"/>
+         <property name="logFiles" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_100923\\Cek Halaman Website\\20240915_100923\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asma.nasyith - 503-01925.modena.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.196.106"/>
+         <property name="sessionId" value="29fd75db832138e22d7ac4ac8f56594e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC Product/Change language" time="10.675" classname="Test Cases/TC Product/Change language" status="PASSED">
+         <system-out><![CDATA[15-09-2024T10:09:28 - [TEST_CASE][PASSED] - Test Cases/TC Product/Change language: Test Cases/TC Product/Change language
+
+15-09-2024T10:09:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T10:09:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T10:09:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T10:09:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T10:09:30 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:09:35 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T10:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T10:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T10:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T10:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/button_language")): Object: 'Object Repository/Language/button_language' is clicked on
+
+15-09-2024T10:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_language' is clicked on
+
+15-09-2024T10:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/div_Bahasa Indonesia")): Object: 'Object Repository/Language/div_Bahasa Indonesia' is clicked on
+
+15-09-2024T10:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/div_Bahasa Indonesia' is clicked on
+
+15-09-2024T10:09:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Language/label Language")): Object 'Object Repository/Language/label Language' is visible
+
+15-09-2024T10:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/Language/label Language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Search Product" time="42.921" classname="Test Cases/TC Product/Search Product" status="PASSED">
+         <system-out><![CDATA[15-09-2024T10:09:38 - [TEST_CASE][PASSED] - Test Cases/TC Product/Search Product: Test Cases/TC Product/Search Product
+
+15-09-2024T10:09:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T10:09:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-09-2024T10:09:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T10:09:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T10:09:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T10:09:40 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:09:46 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/span_Dismiss")): Object: 'Object Repository/Search/span_Dismiss' is clicked on
+
+15-09-2024T10:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/span_Dismiss' is clicked on
+
+15-09-2024T10:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/a_Me want it")): Object: 'Object Repository/Search/a_Me want it' is clicked on
+
+15-09-2024T10:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/a_Me want it' is clicked on
+
+15-09-2024T10:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+15-09-2024T10:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+15-09-2024T10:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), "Apple Juice"): Text 'Apple Juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:09:48 - [MESSAGE][PASSED] - Text 'Apple Juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:09:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:09:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/div_Banana Juice (1000ml)")): Object: 'Object Repository/Search/div_Banana Juice (1000ml)' is clicked on
+
+15-09-2024T10:10:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Banana'])[1]/following::div[8]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T10:10:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Search/div_Banana Juice (1000ml)'. Try using Self-healing.
+
+15-09-2024T10:10:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Search/div_Banana Juice (1000ml)' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Search Results -'])[1]/following::div[8]'.
+
+15-09-2024T10:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/div_Banana Juice (1000ml)' is clicked on
+
+15-09-2024T10:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/i_close")): Object: 'Object Repository/Search/i_close' is clicked on
+
+15-09-2024T10:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/i_close' is clicked on
+
+15-09-2024T10:10:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T10:10:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Search Product" time="45.268" classname="Test Cases/TC Product/Search Product" status="PASSED">
+         <system-out><![CDATA[15-09-2024T10:10:21 - [TEST_CASE][PASSED] - Test Cases/TC Product/Search Product: Test Cases/TC Product/Search Product
+
+15-09-2024T10:10:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T10:10:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T10:10:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T10:10:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T10:10:23 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:10:28 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/span_Dismiss")): Object: 'Object Repository/Search/span_Dismiss' is clicked on
+
+15-09-2024T10:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/span_Dismiss' is clicked on
+
+15-09-2024T10:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/a_Me want it")): Object: 'Object Repository/Search/a_Me want it' is clicked on
+
+15-09-2024T10:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/a_Me want it' is clicked on
+
+15-09-2024T10:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+15-09-2024T10:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+15-09-2024T10:10:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), "Apple Juice"): Text 'Apple Juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:10:30 - [MESSAGE][PASSED] - Text 'Apple Juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:10:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:10:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:10:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/div_Banana Juice (1000ml)")): Object: 'Object Repository/Search/div_Banana Juice (1000ml)' is clicked on
+
+15-09-2024T10:11:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Banana'])[1]/following::div[8]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T10:11:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Search/div_Banana Juice (1000ml)'. Try using Self-healing.
+
+15-09-2024T10:11:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Search/div_Banana Juice (1000ml)' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Search Results -'])[1]/following::div[8]'.
+
+15-09-2024T10:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/div_Banana Juice (1000ml)' is clicked on
+
+15-09-2024T10:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/i_close")): Object: 'Object Repository/Search/i_close' is clicked on
+
+15-09-2024T10:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/i_close' is clicked on
+
+15-09-2024T10:11:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T10:11:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Search Product" time="42.379" classname="Test Cases/TC Product/Search Product" status="PASSED">
+         <system-out><![CDATA[15-09-2024T10:11:07 - [TEST_CASE][PASSED] - Test Cases/TC Product/Search Product: Test Cases/TC Product/Search Product
+
+15-09-2024T10:11:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T10:11:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T10:11:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T10:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T10:11:08 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:11:13 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/span_Dismiss")): Object: 'Object Repository/Search/span_Dismiss' is clicked on
+
+15-09-2024T10:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/span_Dismiss' is clicked on
+
+15-09-2024T10:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/a_Me want it")): Object: 'Object Repository/Search/a_Me want it' is clicked on
+
+15-09-2024T10:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/a_Me want it' is clicked on
+
+15-09-2024T10:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+15-09-2024T10:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+15-09-2024T10:11:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), "Apple Juice"): Text 'Apple Juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:11:16 - [MESSAGE][PASSED] - Text 'Apple Juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:11:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:11:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+15-09-2024T10:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/div_Banana Juice (1000ml)")): Object: 'Object Repository/Search/div_Banana Juice (1000ml)' is clicked on
+
+15-09-2024T10:11:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Banana'])[1]/following::div[8]'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T10:11:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Search/div_Banana Juice (1000ml)'. Try using Self-healing.
+
+15-09-2024T10:11:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Search/div_Banana Juice (1000ml)' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Search Results -'])[1]/following::div[8]'.
+
+15-09-2024T10:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/div_Banana Juice (1000ml)' is clicked on
+
+15-09-2024T10:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/i_close")): Object: 'Object Repository/Search/i_close' is clicked on
+
+15-09-2024T10:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/i_close' is clicked on
+
+15-09-2024T10:11:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T10:11:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Open Detail Product" time="10.988" classname="Test Cases/TC Product/Open Detail Product" status="PASSED">
+         <system-out><![CDATA[15-09-2024T10:11:49 - [TEST_CASE][PASSED] - Test Cases/TC Product/Open Detail Product: Test Cases/TC Product/Open Detail Product
+
+15-09-2024T10:11:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T10:11:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T10:11:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T10:11:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T10:11:51 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:11:56 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T10:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T10:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T10:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T10:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T10:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product/div_Apple Juice (1000ml)")): Object: 'Object Repository/product/div_Apple Juice (1000ml)' is clicked on
+
+15-09-2024T10:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/product/div_Apple Juice (1000ml)' is clicked on
+
+15-09-2024T10:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08")): Object: 'Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08' is clicked on
+
+15-09-2024T10:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08' is clicked on
+
+15-09-2024T10:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product/button_close  Close")): Object: 'Object Repository/product/button_close  Close' is clicked on
+
+15-09-2024T10:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/product/button_close  Close' is clicked on
+
+15-09-2024T10:12:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2024T10:12:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2024T10:09:27 - [TEST_SUITE][PASSED] - Cek Halaman Website: Test Cases/TC Product/Open Detail Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

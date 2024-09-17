@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>registrasi</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>9ee19fd8-a271-44de-904d-3b028484cbca</testSuiteGuid>
+   <testCaseLink>
+      <guid>ac6f6ccb-d65a-4f20-92ff-a94c568a6bc1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>f2e3b141-1cc1-49f9-9c36-99a6a6a23912</id>
+         <masked>false</masked>
+         <name>email</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/TC User/Registrasi</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>72d27a1b-bdc5-4c8a-8699-06b2ff883d2e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data registrasi (1)</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>72d27a1b-bdc5-4c8a-8699-06b2ff883d2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>f2e3b141-1cc1-49f9-9c36-99a6a6a23912</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>72d27a1b-bdc5-4c8a-8699-06b2ff883d2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>96aa082d-cb74-4de4-81b5-2a59cfeefc82</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>72d27a1b-bdc5-4c8a-8699-06b2ff883d2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>repassword</value>
+         <variableId>7b4b6bb5-36d4-41b5-8ca0-6c39348ed9bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>72d27a1b-bdc5-4c8a-8699-06b2ff883d2e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>answer</value>
+         <variableId>cd26a9d6-1600-4692-a7f8-175ba8d8cc49</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

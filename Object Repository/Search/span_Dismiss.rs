@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dismiss</name>
+   <tag></tag>
+   <elementGuidId>5f3f0684-15e7-415c-b648-224804864241</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-welcome-banner/div/div[2]/button[2]/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.close-dialog.mat-raised-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mat-button-wrapper > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Close Welcome Banner&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5fcf51c9-1ac8-4fe8-ad6d-594e3088b8eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dismiss</value>
+      <webElementGuid>485e9f71-13f3-417f-bc5a-e9e32e06eae1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/app-welcome-banner[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mat-typography&quot;]/div[2]/button[@class=&quot;mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/span[1]</value>
+      <webElementGuid>bb4b7bf7-4e16-4234-bf8e-6cc378e22c10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-welcome-banner/div/div[2]/button[2]/span/span</value>
+      <webElementGuid>c3f3e28b-64b4-4fea-bfe0-c295c4cc6b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help getting started'])[1]/following::span[4]</value>
+      <webElementGuid>72fad3e4-dc21-41d9-b6e4-e4833c7c1e2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://owasp-juice.shop'])[1]/following::span[6]</value>
+      <webElementGuid>3cdfb261-1b09-4551-90ef-953855bdc75b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open side menu'])[1]/preceding::span[3]</value>
+      <webElementGuid>589d2edd-b600-4aa5-9b75-e8ca7eba6bfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose language'])[1]/preceding::span[3]</value>
+      <webElementGuid>0184400e-1349-40b5-a947-9fbb778d09ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dismiss']/parent::*</value>
+      <webElementGuid>97792411-5778-4f45-bbb4-27f60913ef38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button[2]/span/span</value>
+      <webElementGuid>6c6252e1-22dd-4692-9b75-57a96bafc436</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Dismiss' or . = 'Dismiss')]</value>
+      <webElementGuid>879fbe4b-5bb3-45aa-b6c3-8d569f4ed206</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

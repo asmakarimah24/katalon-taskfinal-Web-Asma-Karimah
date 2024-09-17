@@ -6,4 +6,56 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a847bd62-84eb-4541-97b1-b464800499d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2e3b141-1cc1-49f9-9c36-99a6a6a23912</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96aa082d-cb74-4de4-81b5-2a59cfeefc82</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b4b6bb5-36d4-41b5-8ca0-6c39348ed9bb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd26a9d6-1600-4692-a7f8-175ba8d8cc49</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f2e3b141-1cc1-49f9-9c36-99a6a6a23912</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>96aa082d-cb74-4de4-81b5-2a59cfeefc82</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b4b6bb5-36d4-41b5-8ca0-6c39348ed9bb</id>
+      <masked>false</masked>
+      <name>repassword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd26a9d6-1600-4692-a7f8-175ba8d8cc49</id>
+      <masked>false</masked>
+      <name>answer</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="registrasi" time="1150.709" tests="4" failures="4" errors="0">
+   <testsuite name="registrasi" tests="4" failures="4" errors="0" time="1150.709" skipped="0" timestamp="15-09-2024T08:23:11" hostname="asma.nasyith - 503-01925.modena.com" id="Test Suites/registrasi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307"/>
+         <property name="logFiles" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363538033.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363538211.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363613293.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363613383.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363704895.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363704988.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363756087.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363756170.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363804793.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363804870.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363854727.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363854837.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363906842.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363906936.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363961249.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363961332.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364007540.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364007649.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364065115.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364065204.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364117794.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364117938.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364200575.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364253256.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364253420.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364365464.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364365637.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364490166.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364490302.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364541707.png, C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364541854.png"/>
+         <property name="hostName" value="asma.nasyith - 503-01925.modena.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.160"/>
+         <property name="sessionId" value="5e5147e2664f3e27aac246e4e8593750"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC User/Registrasi" time="51.174" classname="Test Cases/TC User/Registrasi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC User/Registrasi FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at Registrasi.run(Registrasi:53)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2024T08:28:25 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+15-09-2024T08:28:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T08:28:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-09-2024T08:28:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T08:28:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T08:28:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T08:28:26 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:28:37 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:28:37 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T08:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T08:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T08:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T08:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+15-09-2024T08:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+15-09-2024T08:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+15-09-2024T08:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+15-09-2024T08:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+15-09-2024T08:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+15-09-2024T08:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+15-09-2024T08:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+15-09-2024T08:28:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'coti@gmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+15-09-2024T08:28:41 - [MESSAGE][PASSED] - Text 'coti@gmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+15-09-2024T08:28:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+15-09-2024T08:28:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+15-09-2024T08:28:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+15-09-2024T08:28:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+15-09-2024T08:28:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087")): Object 'Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087' is visible
+
+15-09-2024T08:28:42 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087' is visible
+
+15-09-2024T08:28:42 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+15-09-2024T08:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+15-09-2024T08:28:43 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+15-09-2024T08:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+15-09-2024T08:28:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'yoyo' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+15-09-2024T08:28:44 - [MESSAGE][PASSED] - Text 'yoyo' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+15-09-2024T08:28:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+15-09-2024T08:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+15-09-2024T08:28:44 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/Register/span_Registration completed successfully. Y_fc7740"), 0): Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+15-09-2024T08:28:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2024T08:29:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T08:29:16 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363756087.png]]
+
+15-09-2024T08:29:16 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363756170.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2024T08:28:25 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Registrasi" time="54.406" classname="Test Cases/TC User/Registrasi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC User/Registrasi FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at Registrasi.run(Registrasi:53)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2024T08:31:47 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+15-09-2024T08:31:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T08:31:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-09-2024T08:31:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T08:31:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T08:31:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T08:31:47 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:32:01 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T08:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T08:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T08:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T08:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+15-09-2024T08:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+15-09-2024T08:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+15-09-2024T08:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+15-09-2024T08:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+15-09-2024T08:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+15-09-2024T08:32:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+15-09-2024T08:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+15-09-2024T08:32:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'riva@mail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+15-09-2024T08:32:07 - [MESSAGE][PASSED] - Text 'riva@mail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+15-09-2024T08:32:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+15-09-2024T08:32:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+15-09-2024T08:32:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+15-09-2024T08:32:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+15-09-2024T08:32:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087")): Object 'Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087' is visible
+
+15-09-2024T08:32:08 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087' is visible
+
+15-09-2024T08:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+15-09-2024T08:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+15-09-2024T08:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+15-09-2024T08:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+15-09-2024T08:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'joji' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+15-09-2024T08:32:09 - [MESSAGE][PASSED] - Text 'joji' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+15-09-2024T08:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+15-09-2024T08:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+15-09-2024T08:32:10 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/Register/span_Registration completed successfully. Y_fc7740"), 0): Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+15-09-2024T08:32:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2024T08:32:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T08:32:41 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363961249.png]]
+
+15-09-2024T08:32:41 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726363961332.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2024T08:31:47 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Registrasi" time="83.352" classname="Test Cases/TC User/Registrasi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC User/Registrasi FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Language/button_Dismiss'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at Registrasi.run(Registrasi:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-yaa-c125=&quot;&quot; mat-raised-button=&quot;&quot; color=&quot;primary&quot; aria-label=&quot;Close Welcome Banner&quot; class=&quot;mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted&quot; style=&quot;&quot;>...&lt;/button> is not clickable at point (622, 490). Other element would receive the click: &lt;div id=&quot;cdk-overlay-1&quot; class=&quot;cdk-overlay-pane&quot; style=&quot;position: static; margin-bottom: 0px;&quot;>...&lt;/div>&#xa;  (Session info: chrome=128.0.6613.138)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: '503-01925', ip: '192.168.0.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\ASMA~1.NAS\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: b5e7643d4f61fb7613f29973f1061fb3&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xa;	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)&#xa;	at org.openqa.selenium.WebElement$click.call(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2024T08:35:18 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Language/button_Dismiss'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Registrasi.run(Registrasi:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-yaa-c125="" mat-raised-button="" color="primary" aria-label="Close Welcome Banner" class="mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted" style="">...</button> is not clickable at point (622, 490). Other element would receive the click: <div id="cdk-overlay-1" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: '503-01925', ip: '192.168.0.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\ASMA~1.NAS\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5e7643d4f61fb7613f29973f1061fb3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+15-09-2024T08:35:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T08:35:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-09-2024T08:35:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T08:35:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T08:35:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T08:35:19 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:36:06 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:36:06 - [TEST_STEP][FAILED] - click(findTestObject("Language/button_Dismiss")): Unable to click on object 'Object Repository/Language/button_Dismiss' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Language/button_Dismiss'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Registrasi.run(Registrasi:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-yaa-c125="" mat-raised-button="" color="primary" aria-label="Close Welcome Banner" class="mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted" style="">...</button> is not clickable at point (622, 490). Other element would receive the click: <div id="cdk-overlay-1" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: '503-01925', ip: '192.168.0.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\ASMA~1.NAS\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5e7643d4f61fb7613f29973f1061fb3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1726146721813.run(Script1726146721813.groovy:24)
+	... 18 more
+)
+
+15-09-2024T08:36:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Language/button_Dismiss' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Language/button_Dismiss'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Registrasi.run(Registrasi:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-yaa-c125="" mat-raised-button="" color="primary" aria-label="Close Welcome Banner" class="mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted" style="">...</button> is not clickable at point (622, 490). Other element would receive the click: <div id="cdk-overlay-1" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: '503-01925', ip: '192.168.0.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\ASMA~1.NAS\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5e7643d4f61fb7613f29973f1061fb3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1726146721813.run(Script1726146721813.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364200575.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2024T08:35:18 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Language/button_Dismiss'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Registrasi.run(Registrasi:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-yaa-c125="" mat-raised-button="" color="primary" aria-label="Close Welcome Banner" class="mat-focus-indicator close-dialog mat-raised-button mat-button-base mat-primary ng-star-inserted" style="">...</button> is not clickable at point (622, 490). Other element would receive the click: <div id="cdk-overlay-1" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: '503-01925', ip: '192.168.0.160', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\ASMA~1.NAS\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5e7643d4f61fb7613f29973f1061fb3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Registrasi" time="51.591" classname="Test Cases/TC User/Registrasi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC User/Registrasi FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at Registrasi.run(Registrasi:53)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[15-09-2024T08:41:30 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+15-09-2024T08:41:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2024T08:41:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+15-09-2024T08:41:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2024T08:41:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2024T08:41:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2024T08:41:31 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:41:43 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+15-09-2024T08:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T08:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+15-09-2024T08:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T08:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+15-09-2024T08:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+15-09-2024T08:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+15-09-2024T08:41:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+15-09-2024T08:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+15-09-2024T08:41:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+15-09-2024T08:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+15-09-2024T08:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+15-09-2024T08:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+15-09-2024T08:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'pio@rocketmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+15-09-2024T08:41:47 - [MESSAGE][PASSED] - Text 'pio@rocketmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+15-09-2024T08:41:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+15-09-2024T08:41:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+15-09-2024T08:41:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+15-09-2024T08:41:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+15-09-2024T08:41:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087")): Object 'Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087' is visible
+
+15-09-2024T08:41:48 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087' is visible
+
+15-09-2024T08:41:48 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+15-09-2024T08:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+15-09-2024T08:41:48 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+15-09-2024T08:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+15-09-2024T08:41:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'dori' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+15-09-2024T08:41:50 - [MESSAGE][PASSED] - Text 'dori' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+15-09-2024T08:41:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+15-09-2024T08:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+15-09-2024T08:41:50 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/Register/span_Registration completed successfully. Y_fc7740"), 0): Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+15-09-2024T08:41:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+15-09-2024T08:42:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+15-09-2024T08:42:21 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364541707.png]]
+
+15-09-2024T08:42:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240915_082306\\registrasi\\20240915_082307\\1726364541854.png]]]]></system-out>
+         <system-err><![CDATA[15-09-2024T08:41:30 - [TEST_CASE][FAILED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2024T08:23:11 - [TEST_SUITE][FAILED] - registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[15-09-2024T08:23:11 - [TEST_SUITE][FAILED] - registrasi: Test Cases/TC User/Registrasi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at Registrasi.run(Registrasi:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726363387860.run(TempTestSuite1726363387860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Register/span_Registration completed successfully. Y_fc7740' located by '//div[@id='cdk-overlay-8']/snack-bar-container/div/div/simple-snack-bar/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

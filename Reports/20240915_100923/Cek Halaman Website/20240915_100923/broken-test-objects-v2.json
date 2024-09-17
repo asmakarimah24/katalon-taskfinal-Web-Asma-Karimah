@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search/div_Banana Juice (1000ml)",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Banana\u0027])[1]/following::div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Search Results -\u0027])[1]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240915_100923/Cek Halaman Website/20240915_100923/Object Repository/Search/div_Banana Juice (1000ml)_neighbor.png"
+    }
+  ]
+}

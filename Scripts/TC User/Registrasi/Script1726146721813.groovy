@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://juice-shop.herokuapp.com/#/')
+WebUI.navigateToUrl(GlobalVariable.siteURL)
 
 WebUI.click(findTestObject('Language/button_Dismiss'))
 
@@ -33,18 +33,20 @@ WebUI.click(findTestObject('Object Repository/Register/a_Registrasi Btn'))
 
 WebUI.click(findTestObject('Object Repository/Register/div_Email'))
 
-WebUI.setText(findTestObject('Object Repository/Register/input_User Registration_emailControl'), 'lala2@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Register/input_User Registration_emailControl'), email)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Email_passwordControl'), 'iGDxf8hSRT4=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Email_passwordControl'), password)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Password must be 5-40 characters long_eeca64'), 
-    'iGDxf8hSRT4=')
+    repassword)
 
-WebUI.click(findTestObject('Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087'))
 
-WebUI.click(findTestObject('Object Repository/Register/span_Your eldest siblings middle name'))
+WebUI.click(findTestObject('Register/div_Security Question'))
 
-WebUI.setText(findTestObject('Object Repository/Register/input_This cannot be changed later_security_f37fc9'), 'rara')
+WebUI.click(findTestObject('Register/span_Your eldest siblings middle name'))
+
+WebUI.setText(findTestObject('Object Repository/Register/input_This cannot be changed later_security_f37fc9'), answer)
 
 WebUI.click(findTestObject('Object Repository/Register/button_Register'))
 

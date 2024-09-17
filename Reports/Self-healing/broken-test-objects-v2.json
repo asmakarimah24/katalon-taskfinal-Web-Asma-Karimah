@@ -9,6 +9,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Language/button_Dismiss_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Register/span_Registration completed successfully. Y_fc7740",
+      "brokenLocator": "//div[@id\u003d\u0027cdk-overlay-8\u0027]/snack-bar-container/div/div/simple-snack-bar/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Open side menu\u0027])[1]/preceding::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Register/span_Registration completed successfully. Y_fc7740_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search/div_Banana Juice (1000ml)",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Banana\u0027])[1]/following::div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Search Results -\u0027])[1]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Search/div_Banana Juice (1000ml)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart/span_1",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Your Basket\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Account\u0027])[2]/following::span[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/span_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart/button_Add to Basket",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Apple Juice (1000ml)\u0027])[1]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/button_Add to Basket_position.png"
     }
   ]
 }
