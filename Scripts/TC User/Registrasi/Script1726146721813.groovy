@@ -40,7 +40,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Email_pa
 WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Password must be 5-40 characters long_eeca64'), 
     repassword)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar'))
+
+//WebUI.click(findTestObject('Register/span_Repeat Password_mat-slide-toggle-bar'))
+if (passworddetail == true) {
+    WebUI.click(findTestObject('Register/span_Repeat Password_mat-slide-toggle-bar'))
+}
+
+//WebUI.verifyElementPresent(findTestObject('Register/span_contains at least one lower character'), 0)
+if (passworddetail == true) {
+    WebUI.verifyElementVisible(findTestObject('Register/span_contains at least one lower character'), FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.verifyElementNotPresent(findTestObject('Register/span_contains at least one lower character'), 0)
+}
 
 WebUI.click(findTestObject('Register/div_Security Question'))
 
@@ -50,8 +62,7 @@ WebUI.setText(findTestObject('Object Repository/Register/input_This cannot be ch
 
 WebUI.click(findTestObject('Object Repository/Register/button_Register'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Register/span_Registration completed successfully. Y_fc7740'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Login/h1_Login'), 0)
 
 WebUI.closeBrowser()
 

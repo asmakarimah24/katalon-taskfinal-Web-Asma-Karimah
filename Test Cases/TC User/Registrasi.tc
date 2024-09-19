@@ -30,32 +30,45 @@
       <value></value>
       <variableId>cd26a9d6-1600-4692-a7f8-175ba8d8cc49</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4271950-ea67-4345-a5ba-0c121b10f390</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'rani2@gmail.com'</defaultValue>
       <description></description>
       <id>f2e3b141-1cc1-49f9-9c36-99a6a6a23912</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'8SQVv/p9jVScEs4/2CZsLw=='</defaultValue>
       <description></description>
       <id>96aa082d-cb74-4de4-81b5-2a59cfeefc82</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'8SQVv/p9jVScEs4/2CZsLw==\r\n'</defaultValue>
       <description></description>
       <id>7b4b6bb5-36d4-41b5-8ca0-6c39348ed9bb</id>
       <masked>false</masked>
       <name>repassword</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'mona'</defaultValue>
       <description></description>
       <id>cd26a9d6-1600-4692-a7f8-175ba8d8cc49</id>
       <masked>false</masked>
       <name>answer</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>f4271950-ea67-4345-a5ba-0c121b10f390</id>
+      <masked>false</masked>
+      <name>passworddetail</name>
    </variable>
 </TestCaseEntity>

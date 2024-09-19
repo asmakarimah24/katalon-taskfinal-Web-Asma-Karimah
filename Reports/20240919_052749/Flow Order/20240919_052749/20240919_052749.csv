@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Flow Order,Chrome 128.0.0.0,,,19-09-2024 05:27:59,19-09-2024 05:29:53,1m - 53.581s,PASSED
+,,,,,,,
+Test Cases/TC User/Login,Chrome 128.0.0.0,,,19-09-2024 05:28:00,19-09-2024 05:28:16,16.408s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,19-09-2024 05:28:03,19-09-2024 05:28:07,4.265s,PASSED
+navigateToUrl(siteURL),Chrome 128.0.0.0,,,19-09-2024 05:28:07,19-09-2024 05:28:12,4.701s,PASSED
+"click(findTestObject(""Language/button_Dismiss""))",Chrome 128.0.0.0,,,19-09-2024 05:28:12,19-09-2024 05:28:12,0.630s,PASSED
+"click(findTestObject(""Language/a_cookies btn""))",Chrome 128.0.0.0,,,19-09-2024 05:28:12,19-09-2024 05:28:13,0.482s,PASSED
+"click(findTestObject(""Object Repository/Login/button_account""))",Chrome 128.0.0.0,,,19-09-2024 05:28:13,19-09-2024 05:28:13,0.402s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login Menu""))",Chrome 128.0.0.0,,,19-09-2024 05:28:13,19-09-2024 05:28:14,0.648s,PASSED
+"click(findTestObject(""Object Repository/Login/div_Input Email""))",Chrome 128.0.0.0,,,19-09-2024 05:28:14,19-09-2024 05:28:15,0.712s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Login_email""), username)",Chrome 128.0.0.0,,,19-09-2024 05:28:15,19-09-2024 05:28:15,0.784s,PASSED
+"click(findTestObject(""Object Repository/Login/div_Password""))",Chrome 128.0.0.0,,,19-09-2024 05:28:15,19-09-2024 05:28:16,0.362s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password""), password)",Chrome 128.0.0.0,,,19-09-2024 05:28:16,19-09-2024 05:28:16,0.431s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 128.0.0.0,,,19-09-2024 05:28:16,19-09-2024 05:28:16,0.315s,PASSED
+,,,,,,,
+Test Cases/TC User/Add to cart,Chrome 128.0.0.0,,,19-09-2024 05:28:16,19-09-2024 05:28:23,6.392s,PASSED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,19-09-2024 05:28:17,19-09-2024 05:28:18,0.681s,PASSED
+"setText(findTestObject(""Search/input_OWASP Juice Shop_mat-input-0""), buah)",Chrome 128.0.0.0,,,19-09-2024 05:28:18,19-09-2024 05:28:18,0.913s,PASSED
+"sendKeys(findTestObject(""Search/input_OWASP Juice Shop_mat-input-0""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,19-09-2024 05:28:18,19-09-2024 05:28:19,0.390s,PASSED
+"click(findTestObject(""Object Repository/Cart/button_Add to Basket""))",Chrome 128.0.0.0,,,19-09-2024 05:28:19,19-09-2024 05:28:19,0.534s,PASSED
+"doubleClick(findTestObject(""Search/mat-icon_search""))",Chrome 128.0.0.0,,,19-09-2024 05:28:19,19-09-2024 05:28:21,1.737s,PASSED
+"click(findTestObject(""Cart/mat-icon_shopping_cart""))",Chrome 128.0.0.0,,,19-09-2024 05:28:21,19-09-2024 05:28:22,0.551s,PASSED
+"verifyElementPresent(findTestObject(""Cart/mat-cell_Apple Juice (1000ml)""), 0)",Chrome 128.0.0.0,,,19-09-2024 05:28:22,19-09-2024 05:28:23,1.140s,PASSED
+back(),Chrome 128.0.0.0,,,19-09-2024 05:28:23,19-09-2024 05:28:23,0.053s,PASSED
+,,,,,,,
+Test Cases/TC User/Add to cart,Chrome 128.0.0.0,,,19-09-2024 05:28:23,19-09-2024 05:29:08,44.759s,PASSED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,19-09-2024 05:28:23,19-09-2024 05:28:24,0.670s,PASSED
+"setText(findTestObject(""Search/input_OWASP Juice Shop_mat-input-0""), buah)",Chrome 128.0.0.0,,,19-09-2024 05:28:24,19-09-2024 05:28:25,0.902s,PASSED
+"sendKeys(findTestObject(""Search/input_OWASP Juice Shop_mat-input-0""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,19-09-2024 05:28:25,19-09-2024 05:28:25,0.346s,PASSED
+"click(findTestObject(""Object Repository/Cart/button_Add to Basket""))",Chrome 128.0.0.0,,,19-09-2024 05:28:25,19-09-2024 05:28:59,33.803s,PASSED
+"doubleClick(findTestObject(""Search/mat-icon_search""))",Chrome 128.0.0.0,,,19-09-2024 05:28:59,19-09-2024 05:29:04,5.129s,PASSED
+"click(findTestObject(""Cart/mat-icon_shopping_cart""))",Chrome 128.0.0.0,,,19-09-2024 05:29:04,19-09-2024 05:29:06,1.885s,PASSED
+"verifyElementPresent(findTestObject(""Cart/mat-cell_Apple Juice (1000ml)""), 0)",Chrome 128.0.0.0,,,19-09-2024 05:29:06,19-09-2024 05:29:08,1.919s,PASSED
+back(),Chrome 128.0.0.0,,,19-09-2024 05:29:08,19-09-2024 05:29:08,0.051s,PASSED
+,,,,,,,
+Test Cases/TC User/Add to cart,Chrome 128.0.0.0,,,19-09-2024 05:29:08,19-09-2024 05:29:53,44.966s,PASSED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,19-09-2024 05:29:08,19-09-2024 05:29:08,0.734s,PASSED
+"setText(findTestObject(""Search/input_OWASP Juice Shop_mat-input-0""), buah)",Chrome 128.0.0.0,,,19-09-2024 05:29:08,19-09-2024 05:29:09,0.840s,PASSED
+"sendKeys(findTestObject(""Search/input_OWASP Juice Shop_mat-input-0""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,19-09-2024 05:29:09,19-09-2024 05:29:10,0.329s,PASSED
+"click(findTestObject(""Object Repository/Cart/button_Add to Basket""))",Chrome 128.0.0.0,,,19-09-2024 05:29:10,19-09-2024 05:29:44,34.008s,PASSED
+"doubleClick(findTestObject(""Search/mat-icon_search""))",Chrome 128.0.0.0,,,19-09-2024 05:29:44,19-09-2024 05:29:49,5.134s,PASSED
+"click(findTestObject(""Cart/mat-icon_shopping_cart""))",Chrome 128.0.0.0,,,19-09-2024 05:29:49,19-09-2024 05:29:51,1.889s,PASSED
+"verifyElementPresent(findTestObject(""Cart/mat-cell_Apple Juice (1000ml)""), 0)",Chrome 128.0.0.0,,,19-09-2024 05:29:51,19-09-2024 05:29:53,1.908s,PASSED
+back(),Chrome 128.0.0.0,,,19-09-2024 05:29:53,19-09-2024 05:29:53,0.059s,PASSED

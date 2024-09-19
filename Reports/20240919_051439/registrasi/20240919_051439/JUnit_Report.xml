@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="registrasi" time="73.159" tests="4" failures="0" errors="0">
+   <testsuite name="registrasi" tests="4" failures="0" errors="0" time="73.159" skipped="0" timestamp="19-09-2024T05:14:49" hostname="asma.nasyith - 503-01925.modena.com" id="Test Suites/registrasi">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240919_051439\\registrasi\\20240919_051439"/>
+         <property name="logFiles" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240919_051439\\registrasi\\20240919_051439\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asma.nasyith - 503-01925.modena.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.183"/>
+         <property name="sessionId" value="21f29d1c970bca528ea6410a0516004b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC User/Registrasi" time="20.535" classname="Test Cases/TC User/Registrasi" status="PASSED">
+         <system-out><![CDATA[19-09-2024T05:14:50 - [TEST_CASE][PASSED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi
+
+19-09-2024T05:14:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T05:14:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T05:14:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-09-2024T05:14:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T05:14:53 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:14:57 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'coti2@gmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:04 - [MESSAGE][PASSED] - Text 'coti2@gmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar")): Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:05 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:05 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:05 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:05 - [TEST_STEP][PASSED] - else: Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:05 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Register/span_contains at least one lower character"), 0): Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'yoyo' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:15:08 - [MESSAGE][PASSED] - Text 'yoyo' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:15:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/h1_Login"), 0): Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:15:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:15:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-09-2024T05:15:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Registrasi" time="16.497" classname="Test Cases/TC User/Registrasi" status="PASSED">
+         <system-out><![CDATA[19-09-2024T05:15:10 - [TEST_CASE][PASSED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi
+
+19-09-2024T05:15:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T05:15:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T05:15:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-09-2024T05:15:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T05:15:12 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:15:17 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'riva@mail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:22 - [MESSAGE][PASSED] - Text 'riva@mail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar")): Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:23 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:23 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:23 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:23 - [TEST_STEP][PASSED] - else: Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Register/span_contains at least one lower character"), 0): Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:23 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'joji' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:15:25 - [MESSAGE][PASSED] - Text 'joji' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:15:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/h1_Login"), 0): Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:15:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:15:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-09-2024T05:15:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Registrasi" time="17.798" classname="Test Cases/TC User/Registrasi" status="PASSED">
+         <system-out><![CDATA[19-09-2024T05:15:27 - [TEST_CASE][PASSED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi
+
+19-09-2024T05:15:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T05:15:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T05:15:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-09-2024T05:15:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T05:15:28 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:15:34 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'popo@ymail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:39 - [MESSAGE][PASSED] - Text 'popo@ymail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar")): Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:40 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:40 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:40 - [TEST_STEP][PASSED] - else: Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:40 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Register/span_contains at least one lower character"), 0): Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:40 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'jiji' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:15:42 - [MESSAGE][PASSED] - Text 'jiji' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:15:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/h1_Login"), 0): Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:15:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:15:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-09-2024T05:15:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Registrasi" time="17.7" classname="Test Cases/TC User/Registrasi" status="PASSED">
+         <system-out><![CDATA[19-09-2024T05:15:45 - [TEST_CASE][PASSED] - Test Cases/TC User/Registrasi: Test Cases/TC User/Registrasi
+
+19-09-2024T05:15:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-09-2024T05:15:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+19-09-2024T05:15:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-09-2024T05:15:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-09-2024T05:15:46 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:15:50 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+19-09-2024T05:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+19-09-2024T05:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+19-09-2024T05:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Account")): Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Account' is clicked on
+
+19-09-2024T05:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/span_Login")): Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Login' is clicked on
+
+19-09-2024T05:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/a_Registrasi Btn")): Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/a_Registrasi Btn' is clicked on
+
+19-09-2024T05:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/div_Email")): Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Email' is clicked on
+
+19-09-2024T05:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_User Registration_emailControl"), email): Text 'pio@rocketmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:57 - [MESSAGE][PASSED] - Text 'pio@rocketmail.com' is set on object 'Object Repository/Register/input_User Registration_emailControl'
+
+19-09-2024T05:15:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Email_passwordControl"), password): Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Email_passwordControl'
+
+19-09-2024T05:15:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_Password must be 5-40 characters long_eeca64"), repassword): Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_Password must be 5-40 characters long_eeca64'
+
+19-09-2024T05:15:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar")): Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:58 - [MESSAGE][PASSED] - Object 'Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar' is visible
+
+19-09-2024T05:15:58 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:58 - [TEST_STEP][PASSED] - if (passworddetail == true): null
+
+19-09-2024T05:15:58 - [TEST_STEP][PASSED] - else: Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:58 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Register/span_contains at least one lower character"), 0): Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:15:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Register/span_contains at least one lower character' located by 'By.xpath: //div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span' is not present after '30' second(s)
+
+19-09-2024T05:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Register/div_Security Question")): Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/div_Security Question' is clicked on
+
+19-09-2024T05:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Register/span_Your eldest siblings middle name")): Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/span_Your eldest siblings middle name' is clicked on
+
+19-09-2024T05:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_This cannot be changed later_security_f37fc9"), answer): Text 'dori' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:16:00 - [MESSAGE][PASSED] - Text 'dori' is set on object 'Object Repository/Register/input_This cannot be changed later_security_f37fc9'
+
+19-09-2024T05:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Register/button_Register")): Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/button_Register' is clicked on
+
+19-09-2024T05:16:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/h1_Login"), 0): Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:16:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+19-09-2024T05:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/h1_Login' is present
+
+19-09-2024T05:16:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-09-2024T05:16:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-09-2024T05:14:49 - [TEST_SUITE][PASSED] - registrasi: Test Cases/TC User/Registrasi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

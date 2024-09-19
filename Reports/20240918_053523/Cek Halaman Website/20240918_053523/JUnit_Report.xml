@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cek Halaman Website" time="27.887" tests="5" failures="0" errors="0">
+   <testsuite name="Cek Halaman Website" tests="5" failures="0" errors="0" time="27.887" skipped="0" timestamp="18-09-2024T05:35:32" hostname="asma.nasyith - 503-01925.modena.com" id="Test Suites/Cek Halaman Website">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240918_053523\\Cek Halaman Website\\20240918_053523"/>
+         <property name="logFiles" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240918_053523\\Cek Halaman Website\\20240918_053523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asma.nasyith - 503-01925.modena.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.183"/>
+         <property name="sessionId" value="c21292c685c2ca1d7bb1dd6ec17dc98c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC Product/Change language" time="10.428" classname="Test Cases/TC Product/Change language" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:35:32 - [TEST_CASE][PASSED] - Test Cases/TC Product/Change language: Test Cases/TC Product/Change language
+
+18-09-2024T05:35:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T05:35:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T05:35:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T05:35:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T05:35:35 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:35:40 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/button_language")): Object: 'Object Repository/Language/button_language' is clicked on
+
+18-09-2024T05:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_language' is clicked on
+
+18-09-2024T05:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Language/div_Bahasa Indonesia")): Object: 'Object Repository/Language/div_Bahasa Indonesia' is clicked on
+
+18-09-2024T05:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/div_Bahasa Indonesia' is clicked on
+
+18-09-2024T05:35:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Language/label Language")): Object 'Object Repository/Language/label Language' is visible
+
+18-09-2024T05:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/Language/label Language' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Search Product" time="2.891" classname="Test Cases/TC Product/Search Product" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:35:43 - [TEST_CASE][PASSED] - Test Cases/TC Product/Search Product: Test Cases/TC Product/Search Product
+
+18-09-2024T05:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), buah): Text 'apple juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:44 - [MESSAGE][PASSED] - Text 'apple juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:45 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is double clicked on
+
+18-09-2024T05:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Search Product" time="2.449" classname="Test Cases/TC Product/Search Product" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:35:46 - [TEST_CASE][PASSED] - Test Cases/TC Product/Search Product: Test Cases/TC Product/Search Product
+
+18-09-2024T05:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:35:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), buah): Text 'banana juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:47 - [MESSAGE][PASSED] - Text 'banana juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:47 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is double clicked on
+
+18-09-2024T05:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Search Product" time="2.303" classname="Test Cases/TC Product/Search Product" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:35:48 - [TEST_CASE][PASSED] - Test Cases/TC Product/Search Product: Test Cases/TC Product/Search Product
+
+18-09-2024T05:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), buah): Text 'carrot juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:49 - [MESSAGE][PASSED] - Text 'carrot juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:35:50 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is double clicked on
+
+18-09-2024T05:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC Product/Open Detail Product" time="9.45" classname="Test Cases/TC Product/Open Detail Product" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:35:50 - [TEST_CASE][PASSED] - Test Cases/TC Product/Open Detail Product: Test Cases/TC Product/Open Detail Product
+
+18-09-2024T05:35:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T05:35:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-09-2024T05:35:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T05:35:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T05:35:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T05:35:52 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:35:57 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product/div_Apple Juice (1000ml)")): Object: 'Object Repository/product/div_Apple Juice (1000ml)' is clicked on
+
+18-09-2024T05:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/product/div_Apple Juice (1000ml)' is clicked on
+
+18-09-2024T05:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08")): Object: 'Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08' is clicked on
+
+18-09-2024T05:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08' is clicked on
+
+18-09-2024T05:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/product/button_close  Close")): Object: 'Object Repository/product/button_close  Close' is clicked on
+
+18-09-2024T05:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/product/button_close  Close' is clicked on
+
+18-09-2024T05:36:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-09-2024T05:36:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-09-2024T05:35:32 - [TEST_SUITE][PASSED] - Cek Halaman Website: Test Cases/TC Product/Open Detail Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

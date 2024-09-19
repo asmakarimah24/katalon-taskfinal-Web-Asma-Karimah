@@ -49,6 +49,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/button_Add to Basket_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/product/div_label Juice item",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027All Products\u0027])[1]/following::div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027EN\u0027])[1]/following::div[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/product/div_label Juice item_neighbor.png"
     }
   ]
 }

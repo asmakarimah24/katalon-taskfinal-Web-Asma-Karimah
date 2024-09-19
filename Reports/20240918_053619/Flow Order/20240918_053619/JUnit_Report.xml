@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flow Order" time="126.088" tests="4" failures="0" errors="0">
+   <testsuite name="Flow Order" tests="4" failures="0" errors="0" time="126.088" skipped="0" timestamp="18-09-2024T05:36:27" hostname="asma.nasyith - 503-01925.modena.com" id="Test Suites/Flow Order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240918_053619\\Flow Order\\20240918_053619"/>
+         <property name="logFiles" value="C:\\Users\\asma.nasyith\\git\\katalon-taskfinal-Web-Asma-Karimah\\Reports\\20240918_053619\\Flow Order\\20240918_053619\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="asma.nasyith - 503-01925.modena.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.183"/>
+         <property name="sessionId" value="b9c9ed773b3cdbc6805cf0e4ff82d272"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC User/Login" time="12.099" classname="Test Cases/TC User/Login" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:36:28 - [TEST_CASE][PASSED] - Test Cases/TC User/Login: Test Cases/TC User/Login
+
+18-09-2024T05:36:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T05:36:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T05:36:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T05:36:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T05:36:30 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:36:35 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_account")): Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login Menu")): Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Input Email")): Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Login_email"), username): Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:36:39 - [MESSAGE][PASSED] - Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Password")): Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:36:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Password"), password): Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:36:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Add to cart" time="16.652" classname="Test Cases/TC User/Add to cart" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:36:40 - [TEST_CASE][PASSED] - Test Cases/TC User/Add to cart: Test Cases/TC User/Add to cart
+
+18-09-2024T05:36:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC User/Login"), ["username":"lala2@gmail.com", "password":"iGDxf8hSRT4="], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC User/Login' successfully
+
+18-09-2024T05:36:40 - [TEST_CASE][PASSED] - Test Cases/TC User/Login: Test Cases/TC User/Login
+
+18-09-2024T05:36:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T05:36:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-09-2024T05:36:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T05:36:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T05:36:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T05:36:43 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:36:44 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_account")): Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login Menu")): Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Input Email")): Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Login_email"), username): Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:36:52 - [MESSAGE][PASSED] - Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Password")): Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:36:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Password"), password): Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:36:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:36:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC User/Login' successfully
+
+18-09-2024T05:36:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Search/input_OWASP Juice Shop_mat-input-0"), buah): Text 'apple juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:36:55 - [MESSAGE][PASSED] - Text 'apple juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:36:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:36:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/button_Add to Basket")): Object: 'Object Repository/Cart/button_Add to Basket' is clicked on
+
+18-09-2024T05:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/button_Add to Basket' is clicked on
+
+18-09-2024T05:36:56 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is double clicked on
+
+18-09-2024T05:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Add to cart" time="51.742" classname="Test Cases/TC User/Add to cart" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:36:57 - [TEST_CASE][PASSED] - Test Cases/TC User/Add to cart: Test Cases/TC User/Add to cart
+
+18-09-2024T05:36:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC User/Login"), ["username":"lala2@gmail.com", "password":"iGDxf8hSRT4="], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC User/Login' successfully
+
+18-09-2024T05:36:57 - [TEST_CASE][PASSED] - Test Cases/TC User/Login: Test Cases/TC User/Login
+
+18-09-2024T05:36:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T05:36:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-09-2024T05:36:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T05:36:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T05:36:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T05:36:58 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:37:02 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_account")): Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login Menu")): Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Input Email")): Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:37:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Login_email"), username): Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:37:06 - [MESSAGE][PASSED] - Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Password")): Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:37:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Password"), password): Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:37:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:37:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC User/Login' successfully
+
+18-09-2024T05:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("Search/input_OWASP Juice Shop_mat-input-0"), buah): Text 'banana juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:37:08 - [MESSAGE][PASSED] - Text 'banana juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:37:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:37:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/button_Add to Basket")): Object: 'Object Repository/Cart/button_Add to Basket' is clicked on
+
+18-09-2024T05:37:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Apple Juice (1000ml)'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-09-2024T05:37:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Cart/button_Add to Basket'. Try using Self-healing.
+
+18-09-2024T05:37:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Cart/button_Add to Basket' was broken. Propose an alternative one: '//div[2]/button'.
+
+18-09-2024T05:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/button_Add to Basket' is clicked on
+
+18-09-2024T05:37:43 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is double clicked on
+
+18-09-2024T05:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC User/Add to cart" time="45.294" classname="Test Cases/TC User/Add to cart" status="PASSED">
+         <system-out><![CDATA[18-09-2024T05:37:48 - [TEST_CASE][PASSED] - Test Cases/TC User/Add to cart: Test Cases/TC User/Add to cart
+
+18-09-2024T05:37:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC User/Login"), ["username":"lala2@gmail.com", "password":"iGDxf8hSRT4="], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC User/Login' successfully
+
+18-09-2024T05:37:48 - [TEST_CASE][PASSED] - Test Cases/TC User/Login: Test Cases/TC User/Login
+
+18-09-2024T05:37:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-09-2024T05:37:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-09-2024T05:37:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-09-2024T05:37:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-09-2024T05:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-09-2024T05:37:50 - [TEST_STEP][PASSED] - navigateToUrl(siteURL): Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:37:55 - [MESSAGE][PASSED] - Navigate to 'https://juice-shop.herokuapp.com/#/' successfully
+
+18-09-2024T05:37:55 - [TEST_STEP][PASSED] - click(findTestObject("Language/button_Dismiss")): Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/button_Dismiss' is clicked on
+
+18-09-2024T05:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Language/a_cookies btn")): Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Language/a_cookies btn' is clicked on
+
+18-09-2024T05:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_account")): Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_account' is clicked on
+
+18-09-2024T05:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login Menu")): Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login Menu' is clicked on
+
+18-09-2024T05:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Input Email")): Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Input Email' is clicked on
+
+18-09-2024T05:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/input_Login_email"), username): Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:37:59 - [MESSAGE][PASSED] - Text 'lala2@gmail.com' is set on object 'Object Repository/Login/input_Login_email'
+
+18-09-2024T05:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/div_Password")): Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/div_Password' is clicked on
+
+18-09-2024T05:37:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/input_Password"), password): Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:37:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/input_Password'
+
+18-09-2024T05:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/button_Login")): Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_Login' is clicked on
+
+18-09-2024T05:38:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC User/Login' successfully
+
+18-09-2024T05:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is clicked on
+
+18-09-2024T05:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Search/input_OWASP Juice Shop_mat-input-0"), buah): Text 'carrot juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:38:01 - [MESSAGE][PASSED] - Text 'carrot juice' is set on object 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:38:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Search/input_OWASP Juice Shop_mat-input-0"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:38:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Search/input_OWASP Juice Shop_mat-input-0'
+
+18-09-2024T05:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Cart/button_Add to Basket")): Object: 'Object Repository/Cart/button_Add to Basket' is clicked on
+
+18-09-2024T05:38:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Apple Juice (1000ml)'])[1]/following::button[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-09-2024T05:38:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Cart/button_Add to Basket'. Try using Self-healing.
+
+18-09-2024T05:38:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Cart/button_Add to Basket' was broken. Propose an alternative one: '//div[2]/button'.
+
+18-09-2024T05:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/button_Add to Basket' is clicked on
+
+18-09-2024T05:38:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Search/mat-icon_search")): Object: 'Object Repository/Search/mat-icon_search' is double clicked on
+
+18-09-2024T05:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/mat-icon_search' is double clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-09-2024T05:36:27 - [TEST_SUITE][PASSED] - Flow Order: Test Cases/TC User/Add to cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -40,7 +40,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Email_pa
 WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_Password must be 5-40 characters long_eeca64'), 
     'iGDxf8hSRT4=')
 
-WebUI.click(findTestObject('Object Repository/Register/span_Show password advice_mat-select-placeh_fe7087'))
+WebUI.click(findTestObject('Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar'))
 
 WebUI.click(findTestObject('Object Repository/Register/span_Your eldest siblings middle name'))
 

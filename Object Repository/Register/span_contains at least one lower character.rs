@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_contains at least one lower character</name>
+   <tag></tag>
+   <elementGuidId>6c0aa8b0-fd8d-4fed-948d-3c12caeb82fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ng-tns-c29-25</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;contains at least one lower character&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>975d9ae4-4f8a-421d-bda4-039d433ebf32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c29-25</value>
+      <webElementGuid>98bc2c98-9088-4b42-b9ac-3cb0afd2fd82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>contains at least one lower character</value>
+      <webElementGuid>0c3fd6ce-2986-4832-ad14-47d210a139bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;registration-form&quot;)/mat-password-strength-info[@class=&quot;ng-tns-c29-25 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-card mat-focus-indicator ng-tns-c29-25 ng-trigger ng-trigger-list&quot;]/mat-card-content[@class=&quot;mat-card-content&quot;]/div[@class=&quot;info-row ng-tns-c29-25 ng-trigger ng-trigger-items ng-star-inserted&quot;]/span[@class=&quot;ng-tns-c29-25&quot;]</value>
+      <webElementGuid>62c2d0e4-ab51-418d-8686-74227b9ecdb1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='registration-form']/mat-password-strength-info/mat-card/mat-card-content/div/span</value>
+      <webElementGuid>88b4b32a-e0b7-4205-92b8-c7bd8804eadc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ketik Ulang Kata Sandi'])[1]/following::span[9]</value>
+      <webElementGuid>236196da-bf09-49a6-8c7c-c31859638f48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='contains at least one upper character'])[1]/preceding::span[1]</value>
+      <webElementGuid>41841df6-f8a8-445a-a771-1e431b06134c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='contains at least one digit'])[1]/preceding::span[2]</value>
+      <webElementGuid>1b41715a-8672-4628-8ef0-642b8870e2de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='contains at least one lower character']/parent::*</value>
+      <webElementGuid>40854097-18f3-4e49-b809-263abe41326a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-content/div/span</value>
+      <webElementGuid>76a50d08-b28d-4e11-9236-638575fcae86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'contains at least one lower character' or . = 'contains at least one lower character')]</value>
+      <webElementGuid>98ab4abb-3d9f-49d1-91aa-1101fc78d822</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

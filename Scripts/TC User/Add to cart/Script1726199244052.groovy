@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC User/Login'), [('username') : 'lala2@gmail.com', ('password') : 'iGDxf8hSRT4='], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Search/mat-icon_search'))
 
 WebUI.setText(findTestObject('Search/input_OWASP Juice Shop_mat-input-0'), buah)
@@ -28,4 +26,10 @@ WebUI.sendKeys(findTestObject('Search/input_OWASP Juice Shop_mat-input-0'), Keys
 WebUI.click(findTestObject('Object Repository/Cart/button_Add to Basket'))
 
 WebUI.doubleClick(findTestObject('Search/mat-icon_search'))
+
+WebUI.click(findTestObject('Cart/mat-icon_shopping_cart'))
+
+WebUI.verifyElementPresent(findTestObject('Cart/mat-cell_Apple Juice (1000ml)'), 0)
+
+WebUI.back()
 

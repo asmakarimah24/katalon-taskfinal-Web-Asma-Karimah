@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Apple Juice (1000ml)</name>
+   <name>div_label Juice item</name>
    <tag></tag>
    <elementGuidId>83a5b169-916c-478e-94af-ff3300c523aa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='All Products'])[1]/following::div[8]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.item-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='All Products'])[1]/following::div[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

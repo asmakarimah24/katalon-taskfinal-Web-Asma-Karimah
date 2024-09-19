@@ -6,19 +6,19 @@
    <elementGuidId>264cac81-352e-430a-b38b-a07245c4c0a2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-0']/span[2]</value>
+         <key>CSS</key>
+         <value>span.mat-slide-toggle-bar</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-expansion-indicator.ng-tns-c41-13.ng-trigger.ng-trigger-indicatorRotate.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Reviews (1)&quot;i]</value>
+         <value>.mat-slide-toggle-bar</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,26 +29,82 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7177c63d-e0e3-402e-a84a-6c7cb1b920b0</webElementGuid>
+      <webElementGuid>d8816537-98c0-419f-9e45-6af41ad6690f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-expansion-indicator ng-tns-c41-13 ng-trigger ng-trigger-indicatorRotate ng-star-inserted</value>
-      <webElementGuid>2e6f63dd-00ca-4dc0-a965-66c86886d636</webElementGuid>
+      <value>mat-slide-toggle-bar</value>
+      <webElementGuid>2c4b9731-e8bd-49f2-a44e-9719ae6983ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-expansion-panel-header-0&quot;)/span[@class=&quot;mat-expansion-indicator ng-tns-c41-13 ng-trigger ng-trigger-indicatorRotate ng-star-inserted&quot;]</value>
-      <webElementGuid>32458477-80e5-41f7-944a-b4f6e8861dfb</webElementGuid>
+      <value>id(&quot;mat-slide-toggle-1&quot;)/label[@class=&quot;mat-slide-toggle-label&quot;]/span[@class=&quot;mat-slide-toggle-bar&quot;]</value>
+      <webElementGuid>bbab4c23-5305-4006-9b65-acd8f4140807</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span</value>
+      <webElementGuid>72cb0628-2cc0-4e50-a656-8095425bb7d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ketik Ulang Kata Sandi'])[1]/following::span[2]</value>
+      <webElementGuid>7046f913-f50d-4936-995b-357c18f1f3ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password harus 5-40 panjang karakter.'])[1]/following::span[3]</value>
+      <webElementGuid>5baf489c-6226-4ef4-a5f8-3eafeb06e566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pertanyaan keamanan'])[1]/preceding::span[8]</value>
+      <webElementGuid>b1a17600-4d66-4862-ae95-088d61a6ba15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-slide-toggle/label/span</value>
+      <webElementGuid>5c7f02aa-6cd3-4294-abeb-6aeb04c13836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span/span/span</value>
+      <webElementGuid>30bfbc46-8735-4c70-b82b-77097936a2f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+      <webElementGuid>d9bc8500-4694-4c17-be49-66291911622b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

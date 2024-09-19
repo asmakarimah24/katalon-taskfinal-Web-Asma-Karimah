@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cek Halaman Website,Chrome 128.0.0.0,,,18-09-2024 05:35:32,18-09-2024 05:36:00,27.887s,PASSED
+,,,,,,,
+Test Cases/TC Product/Change language,Chrome 128.0.0.0,,,18-09-2024 05:35:32,18-09-2024 05:35:43,10.428s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,18-09-2024 05:35:33,18-09-2024 05:35:35,2.044s,PASSED
+navigateToUrl(siteURL),Chrome 128.0.0.0,,,18-09-2024 05:35:35,18-09-2024 05:35:40,5.141s,PASSED
+"click(findTestObject(""Object Repository/Language/button_Dismiss""))",Chrome 128.0.0.0,,,18-09-2024 05:35:40,18-09-2024 05:35:40,0.611s,PASSED
+"click(findTestObject(""Object Repository/Language/a_cookies btn""))",Chrome 128.0.0.0,,,18-09-2024 05:35:40,18-09-2024 05:35:41,0.503s,PASSED
+"click(findTestObject(""Object Repository/Language/button_language""))",Chrome 128.0.0.0,,,18-09-2024 05:35:41,18-09-2024 05:35:41,0.495s,PASSED
+"click(findTestObject(""Object Repository/Language/div_Bahasa Indonesia""))",Chrome 128.0.0.0,,,18-09-2024 05:35:41,18-09-2024 05:35:42,0.558s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Language/label Language""))",Chrome 128.0.0.0,,,18-09-2024 05:35:42,18-09-2024 05:35:43,0.779s,PASSED
+,,,,,,,
+Test Cases/TC Product/Search Product,Chrome 128.0.0.0,,,18-09-2024 05:35:43,18-09-2024 05:35:46,2.891s,PASSED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,18-09-2024 05:35:43,18-09-2024 05:35:43,0.397s,PASSED
+"setText(findTestObject(""Object Repository/Search/input_OWASP Juice Shop_mat-input-0""), buah)",Chrome 128.0.0.0,,,18-09-2024 05:35:43,18-09-2024 05:35:44,0.862s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/input_OWASP Juice Shop_mat-input-0""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,18-09-2024 05:35:44,18-09-2024 05:35:45,0.411s,PASSED
+"doubleClick(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,18-09-2024 05:35:45,18-09-2024 05:35:46,0.913s,PASSED
+,,,,,,,
+Test Cases/TC Product/Search Product,Chrome 128.0.0.0,,,18-09-2024 05:35:46,18-09-2024 05:35:48,2.449s,PASSED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,18-09-2024 05:35:46,18-09-2024 05:35:46,0.483s,PASSED
+"setText(findTestObject(""Object Repository/Search/input_OWASP Juice Shop_mat-input-0""), buah)",Chrome 128.0.0.0,,,18-09-2024 05:35:46,18-09-2024 05:35:47,0.913s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/input_OWASP Juice Shop_mat-input-0""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,18-09-2024 05:35:47,18-09-2024 05:35:47,0.345s,PASSED
+"doubleClick(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,18-09-2024 05:35:47,18-09-2024 05:35:48,0.627s,PASSED
+,,,,,,,
+Test Cases/TC Product/Search Product,Chrome 128.0.0.0,,,18-09-2024 05:35:48,18-09-2024 05:35:50,2.303s,PASSED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,18-09-2024 05:35:48,18-09-2024 05:35:49,0.440s,PASSED
+"setText(findTestObject(""Object Repository/Search/input_OWASP Juice Shop_mat-input-0""), buah)",Chrome 128.0.0.0,,,18-09-2024 05:35:49,18-09-2024 05:35:49,0.863s,PASSED
+"sendKeys(findTestObject(""Object Repository/Search/input_OWASP Juice Shop_mat-input-0""), Keys.chord(ENTER))",Chrome 128.0.0.0,,,18-09-2024 05:35:49,18-09-2024 05:35:50,0.328s,PASSED
+"doubleClick(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,18-09-2024 05:35:50,18-09-2024 05:35:50,0.625s,PASSED
+,,,,,,,
+Test Cases/TC Product/Open Detail Product,Chrome 128.0.0.0,,,18-09-2024 05:35:50,18-09-2024 05:36:00,9.450s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,18-09-2024 05:35:51,18-09-2024 05:35:52,1.429s,PASSED
+navigateToUrl(siteURL),Chrome 128.0.0.0,,,18-09-2024 05:35:52,18-09-2024 05:35:57,4.500s,PASSED
+"click(findTestObject(""Language/button_Dismiss""))",Chrome 128.0.0.0,,,18-09-2024 05:35:57,18-09-2024 05:35:57,0.449s,PASSED
+"click(findTestObject(""Language/a_cookies btn""))",Chrome 128.0.0.0,,,18-09-2024 05:35:57,18-09-2024 05:35:58,0.592s,PASSED
+"click(findTestObject(""Object Repository/product/div_Apple Juice (1000ml)""))",Chrome 128.0.0.0,,,18-09-2024 05:35:58,18-09-2024 05:35:58,0.431s,PASSED
+"click(findTestObject(""Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08""))",Chrome 128.0.0.0,,,18-09-2024 05:35:58,18-09-2024 05:35:59,1.161s,PASSED
+"click(findTestObject(""Object Repository/product/button_close  Close""))",Chrome 128.0.0.0,,,18-09-2024 05:35:59,18-09-2024 05:36:00,0.317s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,18-09-2024 05:36:00,18-09-2024 05:36:00,0.251s,PASSED

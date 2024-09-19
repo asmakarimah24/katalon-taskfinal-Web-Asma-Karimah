@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Show password advice_mat-select-placeh_fe7087</name>
+   <name>span_Repeat Password_mat-slide-toggle-bar</name>
    <tag></tag>
    <elementGuidId>bb332847-a3f7-4752-a43e-7eae22bd447f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-select-value-3']/span</value>
+         <key>CSS</key>
+         <value>span.mat-slide-toggle-bar</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-select-placeholder.mat-select-min-line.ng-tns-c30-17.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Selection list for the security question&quot;i >> span</value>
+         <value>.mat-slide-toggle-bar</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,62 +29,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5f4a4aa6-1253-48be-b1e2-b771bdcf2222</webElementGuid>
+      <webElementGuid>9f74000a-be1c-4704-ab07-bf7116b80923</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-select-placeholder mat-select-min-line ng-tns-c30-17 ng-star-inserted</value>
-      <webElementGuid>ab4da920-fa18-4ca6-8ce5-cc3b37da6f91</webElementGuid>
+      <value>mat-slide-toggle-bar</value>
+      <webElementGuid>43981dc5-20c9-4a31-b49e-5637d8887cca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-select-value-3&quot;)/span[@class=&quot;mat-select-placeholder mat-select-min-line ng-tns-c30-17 ng-star-inserted&quot;]</value>
-      <webElementGuid>84a2ff2c-9760-4b3a-bd22-e239e40f80ca</webElementGuid>
+      <value>id(&quot;mat-slide-toggle-1&quot;)/label[@class=&quot;mat-slide-toggle-label&quot;]/span[@class=&quot;mat-slide-toggle-bar&quot;]</value>
+      <webElementGuid>dd2d3126-79e4-4cfd-bd50-229c2981d627</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mat-select-value-3']/span</value>
-      <webElementGuid>3b63b603-02b0-44d3-8deb-8c6a3a9abde5</webElementGuid>
+      <value>//mat-slide-toggle[@id='mat-slide-toggle-1']/label/span</value>
+      <webElementGuid>320f5806-c7fd-434d-963b-3585c8d5ff98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat Password'])[1]/following::span[9]</value>
-      <webElementGuid>d8487892-dbb2-43cd-a60f-c614f2b3d72d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Repeat Password'])[1]/following::span[2]</value>
+      <webElementGuid>fa2bd0b2-931e-4e41-bb6d-a1b4e5018b7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security Question'])[1]/preceding::span[1]</value>
-      <webElementGuid>86a9e625-92c1-429d-a190-fabae6c7a5dd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must be 5-40 characters long.'])[1]/following::span[3]</value>
+      <webElementGuid>3e4a94df-73d3-43a5-bbe7-15f45a1b102f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This cannot be changed later!'])[1]/preceding::span[3]</value>
-      <webElementGuid>24477d23-b6c4-4422-a063-e468311b9146</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security Question'])[1]/preceding::span[8]</value>
+      <webElementGuid>f0056681-a94b-499d-a6e1-98abd1af9ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-select/div/div/span</value>
-      <webElementGuid>7d8da9ae-14fc-4aaa-a5f4-66bce8aa1338</webElementGuid>
+      <value>//mat-slide-toggle/label/span</value>
+      <webElementGuid>fef84255-fd23-48e9-b777-bc1af9f0d675</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
