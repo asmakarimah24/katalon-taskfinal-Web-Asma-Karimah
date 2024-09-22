@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Language/a_cookies btn'))
 
 WebUI.click(findTestObject('Object Repository/product/div_label Juice item'))
 
-WebUI.click(findTestObject('Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08'))
+WebUI.click(findTestObject('product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08'))
 
 WebUI.click(findTestObject('Object Repository/product/button_close  Close'))
 

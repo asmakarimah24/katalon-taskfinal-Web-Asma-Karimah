@@ -59,6 +59,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/product/div_label Juice item_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08",
+      "brokenLocator": "//mat-slide-toggle[@id\u003d\u0027mat-slide-toggle-1\u0027]/label/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08_position.png"
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search/div_Banana Juice (1000ml)",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Banana\u0027])[1]/following::div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Search Results -\u0027])[1]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240922_150248/Cek Halaman Website/20240922_150248/Object Repository/Search/div_Banana Juice (1000ml)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08",
+      "brokenLocator": "//mat-slide-toggle[@id\u003d\u0027mat-slide-toggle-1\u0027]/label/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240922_150248/Cek Halaman Website/20240922_150248/Object Repository/product/span_(1)_mat-expansion-indicator ng-tns-c41_c7be08_position.png"
+    }
+  ]
+}

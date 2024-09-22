@@ -33,6 +33,8 @@ WebUI.sendKeys(findTestObject('Object Repository/Search/input_OWASP Juice Shop_m
 
 WebUI.click(findTestObject('Object Repository/Search/div_Banana Juice (1000ml)'))
 
+WebUI.verifyElementPresent(findTestObject('product/h1_Apple Juice (1000ml)'), 0)
+
 WebUI.click(findTestObject('Object Repository/Search/i_close'))
 
 WebUI.closeBrowser()

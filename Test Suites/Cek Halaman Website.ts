@@ -19,25 +19,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1d5904f-b608-46f1-bce5-c1be2bc3bee2</guid>
+      <guid>99eb3c40-ab44-4814-9800-4fc63a2e1e03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC Product/Search Product</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>28f981e5-da72-4ef3-b579-82d278bbf77d</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/buah</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/TC Product/Search Product - Copy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>28f981e5-da72-4ef3-b579-82d278bbf77d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>jus</value>
-         <variableId>9fe07db5-606d-46d8-9f9b-1280fc7fb5e6</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2405c5ef-a952-47d1-bb29-a91b1a3d39b7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
