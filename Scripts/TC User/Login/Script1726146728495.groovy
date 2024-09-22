@@ -39,3 +39,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Password'),
 
 WebUI.click(findTestObject('Object Repository/Login/button_Login'))
 
+WebUI.verifyElementPresent(findTestObject('Cart/span_Your Basket'), 0)
+
