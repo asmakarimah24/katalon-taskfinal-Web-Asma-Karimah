@@ -19,14 +19,14 @@
       <variableId>109bdb93-cb29-43ab-8e91-fe5884bdd329</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'lala@gmail.com'</defaultValue>
+      <defaultValue>'coti2@gmail.com'</defaultValue>
       <description></description>
       <id>55ca2246-d49e-4fba-b3d2-8006355ab92d</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'W3hObB4uSEA='</defaultValue>
+      <defaultValue>'iGDxf8hSRT4='</defaultValue>
       <description></description>
       <id>109bdb93-cb29-43ab-8e91-fe5884bdd329</id>
       <masked>false</masked>

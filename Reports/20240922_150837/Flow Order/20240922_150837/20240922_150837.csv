@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Flow Order,Chrome 128.0.0.0,,,22-09-2024 15:08:48,22-09-2024 15:09:22,33.389s,FAILED
+,,,,,,,
+Test Cases/TC User/Registrasi,Chrome 128.0.0.0,,,22-09-2024 15:08:48,22-09-2024 15:09:07,19.162s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,22-09-2024 15:08:49,22-09-2024 15:08:51,2.476s,PASSED
+navigateToUrl(siteURL),Chrome 128.0.0.0,,,22-09-2024 15:08:51,22-09-2024 15:08:53,1.473s,PASSED
+"click(findTestObject(""Language/button_Dismiss""))",Chrome 128.0.0.0,,,22-09-2024 15:08:53,22-09-2024 15:08:56,3.576s,PASSED
+"click(findTestObject(""Language/a_cookies btn""))",Chrome 128.0.0.0,,,22-09-2024 15:08:56,22-09-2024 15:08:57,0.453s,PASSED
+"click(findTestObject(""Object Repository/Register/span_Account""))",Chrome 128.0.0.0,,,22-09-2024 15:08:57,22-09-2024 15:08:57,0.326s,PASSED
+"click(findTestObject(""Object Repository/Register/span_Login""))",Chrome 128.0.0.0,,,22-09-2024 15:08:57,22-09-2024 15:08:58,0.553s,PASSED
+"click(findTestObject(""Object Repository/Register/a_Registrasi Btn""))",Chrome 128.0.0.0,,,22-09-2024 15:08:58,22-09-2024 15:09:01,3.077s,PASSED
+"click(findTestObject(""Object Repository/Register/div_Email""))",Chrome 128.0.0.0,,,22-09-2024 15:09:01,22-09-2024 15:09:01,0.526s,PASSED
+"setText(findTestObject(""Object Repository/Register/input_User Registration_emailControl""), email)",Chrome 128.0.0.0,,,22-09-2024 15:09:01,22-09-2024 15:09:02,0.755s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register/input_Email_passwordControl""), password)",Chrome 128.0.0.0,,,22-09-2024 15:09:02,22-09-2024 15:09:03,0.493s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Register/input_Password must be 5-40 characters long_eeca64""), repassword)",Chrome 128.0.0.0,,,22-09-2024 15:09:03,22-09-2024 15:09:03,0.597s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Register/span_Repeat Password_mat-slide-toggle-bar""))",Chrome 128.0.0.0,,,22-09-2024 15:09:03,22-09-2024 15:09:04,0.485s,PASSED
+if (passworddetail == true),Chrome 128.0.0.0,,,22-09-2024 15:09:04,22-09-2024 15:09:04,0.400s,PASSED
+if (passworddetail == true),Chrome 128.0.0.0,,,22-09-2024 15:09:04,22-09-2024 15:09:05,0.508s,PASSED
+"click(findTestObject(""Register/div_Security Question""))",Chrome 128.0.0.0,,,22-09-2024 15:09:05,22-09-2024 15:09:05,0.323s,PASSED
+"click(findTestObject(""Register/span_Your eldest siblings middle name""))",Chrome 128.0.0.0,,,22-09-2024 15:09:05,22-09-2024 15:09:05,0.557s,PASSED
+"setText(findTestObject(""Object Repository/Register/input_This cannot be changed later_security_f37fc9""), answer)",Chrome 128.0.0.0,,,22-09-2024 15:09:05,22-09-2024 15:09:06,0.860s,PASSED
+"click(findTestObject(""Object Repository/Register/button_Register""))",Chrome 128.0.0.0,,,22-09-2024 15:09:06,22-09-2024 15:09:07,0.323s,PASSED
+"verifyElementPresent(findTestObject(""Login/h1_Login""), 0)",Chrome 128.0.0.0,,,22-09-2024 15:09:07,22-09-2024 15:09:07,0.485s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,22-09-2024 15:09:07,22-09-2024 15:09:07,0.322s,PASSED
+,,,,,,,
+Test Cases/TC User/Add to cart,Chrome 128.0.0.0,,,22-09-2024 15:09:08,22-09-2024 15:09:09,1.527s,FAILED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,22-09-2024 15:09:08,22-09-2024 15:09:09,1.132s,FAILED
+,,,,,,,
+Test Cases/TC User/Add to cart,Chrome 128.0.0.0,,,22-09-2024 15:09:09,22-09-2024 15:09:10,1.188s,FAILED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,22-09-2024 15:09:09,22-09-2024 15:09:10,1.071s,FAILED
+,,,,,,,
+Test Cases/TC User/Add to cart,Chrome 128.0.0.0,,,22-09-2024 15:09:10,22-09-2024 15:09:11,1.091s,FAILED
+"click(findTestObject(""Object Repository/Search/mat-icon_search""))",Chrome 128.0.0.0,,,22-09-2024 15:09:10,22-09-2024 15:09:11,1.044s,FAILED
+,,,,,,,
+Test Cases/TC User/Login,Chrome 128.0.0.0,,,22-09-2024 15:09:11,22-09-2024 15:09:22,10.089s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,22-09-2024 15:09:12,22-09-2024 15:09:13,1.065s,PASSED
+navigateToUrl(siteURL),Chrome 128.0.0.0,,,22-09-2024 15:09:13,22-09-2024 15:09:17,4.148s,PASSED
+"click(findTestObject(""Language/button_Dismiss""))",Chrome 128.0.0.0,,,22-09-2024 15:09:17,22-09-2024 15:09:18,0.440s,PASSED
+"click(findTestObject(""Language/a_cookies btn""))",Chrome 128.0.0.0,,,22-09-2024 15:09:18,22-09-2024 15:09:18,0.591s,PASSED
+"click(findTestObject(""Object Repository/Login/button_account""))",Chrome 128.0.0.0,,,22-09-2024 15:09:18,22-09-2024 15:09:18,0.397s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login Menu""))",Chrome 128.0.0.0,,,22-09-2024 15:09:19,22-09-2024 15:09:19,0.595s,PASSED
+"click(findTestObject(""Object Repository/Login/div_Input Email""))",Chrome 128.0.0.0,,,22-09-2024 15:09:19,22-09-2024 15:09:20,0.639s,PASSED
+"setText(findTestObject(""Object Repository/Login/input_Login_email""), username)",Chrome 128.0.0.0,,,22-09-2024 15:09:20,22-09-2024 15:09:20,0.681s,PASSED
+"click(findTestObject(""Object Repository/Login/div_Password""))",Chrome 128.0.0.0,,,22-09-2024 15:09:20,22-09-2024 15:09:21,0.373s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/input_Password""), password)",Chrome 128.0.0.0,,,22-09-2024 15:09:21,22-09-2024 15:09:21,0.391s,PASSED
+"click(findTestObject(""Object Repository/Login/button_Login""))",Chrome 128.0.0.0,,,22-09-2024 15:09:21,22-09-2024 15:09:22,0.346s,PASSED
